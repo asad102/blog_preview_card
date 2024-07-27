@@ -830,6 +830,19 @@ video {
   min-height: 100vh;
 }
 
+.min-h-\[1440px\] {
+  min-height: 1440px;
+}
+
+.min-h-full {
+  min-height: 100%;
+}
+
+.min-h-fit {
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+}
+
 .w-8 {
   width: 2rem;
 }
@@ -1374,6 +1387,18 @@ video {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1991,6 +2016,11 @@ video {
   padding-bottom: 0.25rem;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2051,13 +2081,13 @@ video {
   font-family: Figtree, sans;
 }
 
-.text-\[14px\] {
-  font-size: 14px;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.text-\[14px\] {
+  font-size: 14px;
 }
 
 .font-bold {
