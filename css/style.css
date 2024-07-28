@@ -719,12 +719,20 @@ video {
   margin: 0px;
 }
 
-.m-6 {
-  margin: 1.5rem;
-}
-
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .box-border {
@@ -830,16 +838,12 @@ video {
   height: 2rem;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .h-\[501px\] {
   height: 501px;
 }
 
-.max-h-\[501px\] {
-  max-height: 501px;
+.h-full {
+  height: 100%;
 }
 
 .max-h-full {
@@ -872,10 +876,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.max-w-\[327px\] {
-  max-width: 327px;
 }
 
 .max-w-full {
@@ -1408,16 +1408,8 @@ video {
   gap: 1rem;
 }
 
-.gap-8 {
-  gap: 2rem;
-}
-
 .gap-6 {
   gap: 1.5rem;
-}
-
-.gap-10 {
-  gap: 2.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2125,6 +2117,10 @@ video {
   font-weight: 500;
 }
 
+.font-normal {
+  font-weight: 400;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -2191,6 +2187,46 @@ video {
 .stacked-fractions {
   --tw-numeric-fraction: stacked-fractions;
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
+}
+
+.tracking-normal {
+  letter-spacing: 0em;
+}
+
+.-tracking-wide {
+  letter-spacing: -0.025em;
+}
+
+.-tracking-wider {
+  letter-spacing: -0.05em;
+}
+
+.-tracking-tight {
+  letter-spacing: 0.025em;
+}
+
+.-tracking-tighter {
+  letter-spacing: 0.05em;
+}
+
+.-tracking-normal {
+  letter-spacing: -0em;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+
+.tracking-tight {
+  letter-spacing: -0.025em;
+}
+
+.tracking-tighter {
+  letter-spacing: -0.05em;
+}
+
+.tracking-widest {
+  letter-spacing: 0.1em;
 }
 
 .text-Gray500 {
@@ -2657,20 +2693,12 @@ video {
     height: 522px;
   }
 
-  .lg\:max-h-\[522px\] {
-    max-height: 522px;
-  }
-
   .lg\:max-h-full {
     max-height: 100%;
   }
 
   .lg\:w-\[384px\] {
     width: 384px;
-  }
-
-  .lg\:max-w-\[384px\] {
-    max-width: 384px;
   }
 
   .lg\:max-w-full {
