@@ -719,20 +719,12 @@ video {
   margin: 0px;
 }
 
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
-}
-
-.mt-3 {
-  margin-top: 0.75rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.mt-6 {
-  margin-top: 1.5rem;
 }
 
 .box-border {
@@ -2087,10 +2079,6 @@ video {
   font-family: Figtree, sans;
 }
 
-.text-\[14px\] {
-  font-size: 14px;
-}
-
 .text-\[16px\] {
   font-size: 16px;
 }
@@ -2115,10 +2103,6 @@ video {
 
 .font-medium {
   font-weight: 500;
-}
-
-.font-normal {
-  font-weight: 400;
 }
 
 .uppercase {
@@ -2187,46 +2171,6 @@ video {
 .stacked-fractions {
   --tw-numeric-fraction: stacked-fractions;
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
-}
-
-.tracking-normal {
-  letter-spacing: 0em;
-}
-
-.-tracking-wide {
-  letter-spacing: -0.025em;
-}
-
-.-tracking-wider {
-  letter-spacing: -0.05em;
-}
-
-.-tracking-tight {
-  letter-spacing: 0.025em;
-}
-
-.-tracking-tighter {
-  letter-spacing: 0.05em;
-}
-
-.-tracking-normal {
-  letter-spacing: -0em;
-}
-
-.tracking-wider {
-  letter-spacing: 0.05em;
-}
-
-.tracking-tight {
-  letter-spacing: -0.025em;
-}
-
-.tracking-tighter {
-  letter-spacing: -0.05em;
-}
-
-.tracking-widest {
-  letter-spacing: 0.1em;
 }
 
 .text-Gray500 {
