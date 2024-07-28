@@ -715,6 +715,14 @@ video {
   clear: none;
 }
 
+.m-0 {
+  margin: 0px;
+}
+
+.m-6 {
+  margin: 1.5rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -822,8 +830,20 @@ video {
   height: 2rem;
 }
 
+.h-full {
+  height: 100%;
+}
+
+.h-\[501px\] {
+  height: 501px;
+}
+
 .max-h-\[501px\] {
   max-height: 501px;
+}
+
+.max-h-full {
+  max-height: 100%;
 }
 
 .min-h-screen {
@@ -832,6 +852,10 @@ video {
 
 .w-8 {
   width: 2rem;
+}
+
+.w-\[327px\] {
+  width: 327px;
 }
 
 .w-\[this-is\\\\\] {
@@ -846,8 +870,16 @@ video {
   width: weird-and-invalid;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .max-w-\[327px\] {
   max-width: 327px;
+}
+
+.max-w-full {
+  max-width: 100%;
 }
 
 .flex-shrink {
@@ -1376,12 +1408,16 @@ video {
   gap: 1rem;
 }
 
+.gap-8 {
+  gap: 2rem;
+}
+
 .gap-6 {
   gap: 1.5rem;
 }
 
-.gap-8 {
-  gap: 2rem;
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1704,24 +1740,12 @@ video {
   border-radius: 20px;
 }
 
-.rounded-\[4px\] {
-  border-radius: 4px;
-}
-
 .rounded-full {
   border-radius: 9999px;
 }
 
-.rounded-xl {
-  border-radius: 0.75rem;
-}
-
 .rounded-lg {
   border-radius: 0.5rem;
-}
-
-.rounded-sm {
-  border-radius: 0.125rem;
 }
 
 .rounded-md {
@@ -1982,16 +2006,8 @@ video {
      object-fit: scale-down;
 }
 
-.p-1 {
-  padding: 0.25rem;
-}
-
 .p-6 {
   padding: 1.5rem;
-}
-
-.p-5 {
-  padding: 1.25rem;
 }
 
 .px-1 {
@@ -2083,19 +2099,8 @@ video {
   font-size: 14px;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
+.text-\[16px\] {
+  font-size: 16px;
 }
 
 .text-sm {
@@ -2103,9 +2108,9 @@ video {
   line-height: 1.25rem;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -2648,12 +2653,28 @@ video {
 }
 
 @media (min-width: 1440px) {
+  .lg\:h-\[522px\] {
+    height: 522px;
+  }
+
   .lg\:max-h-\[522px\] {
     max-height: 522px;
   }
 
+  .lg\:max-h-full {
+    max-height: 100%;
+  }
+
+  .lg\:w-\[384px\] {
+    width: 384px;
+  }
+
   .lg\:max-w-\[384px\] {
     max-width: 384px;
+  }
+
+  .lg\:max-w-full {
+    max-width: 100%;
   }
 }
 
