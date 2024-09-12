@@ -6,25 +6,24 @@
     <title>BLog Preview Card</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./img/favicon-32x32.png" type="image/x-icon">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet"> -->
-    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@500;800&display=swap" rel="stylesheet"> -->
 </head>
 <body>
-    <main class="text-[16px] font-sans bg-Yellow flex items-center justify-center min-h-screen w-full h-full box-border">
-        <article class="flex flex-col gap-6 items-start justify-start bg-White border border-Gray950  rounded-[20px] shadow-right-bottom p-6 lg:w-[384px] w-[327px]  max-w-full lg:h-[522px] h-[501px]">
-            <img src="./img/illustration-article.svg" alt="" class="h-[200px] w-full object-cover  rounded-[10px]">
-            <header class=" flex flex-col gap-3 text-Gray950 tracking-normal leading-normal">
-                <section class="font-bold text-[14px] lg:w-[82px] lg:h-[29px] w-[73px] h-[27px]">
-                    <span class="bg-Yellow  px-3 py-1 rounded-[4px]">Learning</span>
-                </section>               
-                
-                <span class="font-medium lg:text-[14px] text-[12px]">Published 21 Dec 2023</span>
-                <h1 class="font-bold lg:text-[24px] text-[20px]  hover:text-Yellow hover:cursor-pointer">HTML & CSS foundations</h1>
-                <p class="text-Gray500 font-medium">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+    <main class="font-sans bg-yellow flex items-center justify-center min-h-screen">
+        <article class="md:max-w-sm max-w-[327px] flex flex-col gap-300 items-start justify-start bg-white border border-gray-950  rounded-[20px] shadow-right-bottom p-300">
+            <img src="./img/illustration-article.svg" alt="profile" class="h-[200px] w-full object-cover rounded-[10px]">
+            <header class=" flex flex-col gap-150">
+                <div class="btn">
+                    <button class="text-preset-4 bg-yellow px-150 py-50 rounded">Learning</button>    
+                </div>                           
+                <span class="text-preset-3 text-gray-950">Published 21 Dec 2023</span>
+                <h1 class="text-preset-1 text-gray-950 hover:text-yellow hover:cursor-pointer">HTML & CSS foundations</h1>
+                <p class="text-preset-2 text-gray-500">These languages are the backbone of every website, defining structure, content, and presentation.</p>
             </header>
-            <footer class="flex flex-row gap-3 items-center">
+            <footer class="flex flex-row gap-150 items-center">
                 <img src="./img/image-avatar.webp" alt="" class="w-8 h-8 ">
-                <p class="font-bold text-[14px] text-Gray950 ">Greg Hooper</p>
+                <p class="text-preset-4 text-gray-950">Greg Hooper</p>
             </footer>
         </article>
     </main>
