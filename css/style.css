@@ -2075,12 +2075,15 @@ video {
   font-weight: 800;
 }
 
-.font-bold {
-  font-weight: 700;
+.text-preset-11 {
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-weight: 800;
 }
 
-.font-extrabold {
-  font-weight: 800;
+.font-bold {
+  font-weight: 700;
 }
 
 .uppercase {
@@ -2618,6 +2621,13 @@ video {
 @media (min-width: 768px) {
   .md\:max-w-sm {
     max-width: 24rem;
+  }
+
+  .md\:text-preset-1 {
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    font-weight: 800;
   }
 }
 
